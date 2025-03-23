@@ -13,5 +13,6 @@ public:
     }
 };
 int main(){
-    Student s1("Tony Stark");
+    Student s1;
+    s1.name = "Tony stark";
 }
